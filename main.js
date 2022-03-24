@@ -12,7 +12,7 @@ video =  createCapture(VIDEO);
   canvas = createCanvas(550, 550);
   canvas.position(560,150);
   
-  poseNet = m;5.poseNet(video, modelLoaded);
+  poseNet = ml5.poseNet(video, modelLoaded);
   poseNet.on('pose', gotPoses);
 }
 
