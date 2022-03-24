@@ -16,7 +16,7 @@ video =  createCapture(VIDEO);
   poseNet.on('pose', gotPoses);
 }
 
-function modelLoaaded(){
+function modelLoaded(){
 console.log('PoseNet Is Initialized!');
 }
 
